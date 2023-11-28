@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  /* background-image: url('./Components/stock/bg.jpg'); */
+  background-image: url('https://downloadscdn6.freepik.com/1258/72/71828.jpg?filename=abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg&token=exp=1685678256~hmac=c4d53c984d14e364d8ca19856217cb7a');
+}
+.loginCSS {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+  margin: auto;
+  height: 70vh;
+  border: none;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 0rem 5rem;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  /* text-align: center;
+  padding: 0.25rem 0; */
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-weight: 400;
+  border-color: 3px solid black;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  background-color: #ffffff;
+  /* padding: 15px; */
+  /* position: absolute; */
+  /* transform: translate(-50%,-50%); */
+  top: 50%;
+  left: 50%;
+  font-family: "Roboto Mono", monospace;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 2px solid black;
+  outline: none;
+  border-radius: 5px;
+}
+
+.loginBtn {
+  border-color: 3px solid black;
+  background-color: white;
+  padding: 20px;
+  border-radius: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+#root{
+  /* background: #37306B; */
+  /* background-color: #171717; */
+}
+.afterLoginSection{
+  display: flex;
+}
