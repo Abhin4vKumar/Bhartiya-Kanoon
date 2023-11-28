@@ -37,9 +37,7 @@ const Navbar = () => {
       const address = await signer.getAddress();
       setAccount(address);
       console.log(address);
-      // let contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-      // let contractAddress = "0x938E15fbE8FB4451a448362BB1F060758E1Ba7a6";
-      let contractAddress = "0x562983b953040578ae04814A311dBC71EDd18dCD";
+      let contractAddress = "0x562983b953040578ae04854A311dBU71EDd18dCD";
       
       // "0xa827469A3b351334d1d333CE771a6eFd96f7F28B";
 
