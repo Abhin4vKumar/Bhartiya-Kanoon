@@ -1,0 +1,89 @@
+.PopupSectionUserOrg {
+    display: flex;
+    justify-content: center;
+}
+.sectionPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.popUpSectionBtns {
+    height: 310px;
+    width: 310px;
+    cursor: pointer;
+    /* margin-left: 22%; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    /* background-color: white; */
+    background-image: url('https://img.freepik.com/free-photo/abstract-blur-empty-green-gradient-studio-well-use-as-background-website-template-frame-business-report_1258-52616.jpg?w=2000');
+    transition: all ease-out 0.2s;
+
+}
+
+.popUpSecA{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 3em;
+}
+.userSelect, .orgSelect{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 5%;
+    
+}
+.userSelect hr{
+    border: 5px solid black;
+    width: 5%;
+    position: absolute;
+    transition: all ease-out 0.2s;
+}
+.orgSelect hr{
+    border: 5px solid black;
+    width: 5%;
+    position: absolute;
+    transition: all ease-out 0.2s;
+}
+.profileUploader {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* background-color: black; */
+    background-color: transparent;
+    /* justify-content: center; */
+    border: 4px dotted #111;
+    /* display: flex; */
+    margin: auto;
+    margin-top: 5%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
+    background-size: 100%;
+    /* bacgk */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* flex-direction: column; */
+}
+
+.UploadProfileFUllPage{
+    /* justify-content: center; */
+    display: flex;
+    /* marginto */
+    flex-direction: column;
+    height: 100vh;
+
+}
+.profileUploadBtn {
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 15%;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-weight: 700;
+    height: 6vh;
+}
+
+

@@ -1,0 +1,41 @@
+.picArea img{
+    width: 30%;
+}
+.picArea{
+    text-align: center;
+}
+.upperCACUserSection{
+    display: flex;
+    justify-content: center;
+}
+.upperRightClickSection{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+.upperRightClickSection div{
+    margin: 2%;
+}
+.upperRightClickSectionDiv{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+}
+.addCertiBtnClick{
+    display: flex;
+    font-size: 1.1em;
+    padding: 7%;
+    /* flex-direction: column; */
+    text-align: center;
+    width: 183px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    cursor: pointer;
+}
+.whoseCerti{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+}

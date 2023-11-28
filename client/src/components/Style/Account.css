@@ -1,0 +1,54 @@
+.accountNameLabel, .accountEmailLabel, .accountRoleLabel, .accountCountryLabel{
+    color: #232323;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 100%;
+}
+.accountNameIs, .accountEmailIs, .accountRoleIs, .accountCountryIs {
+    display: flex;
+    margin-bottom: 12.5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    /* text-align: center; */
+    /* align-items: center; */
+    width: 300px;
+    border: 2px solid rgb(220, 220, 220);
+    color: #A7A7A7;
+    background-color: #F8F9FD;
+    /* display: flex; */
+    border-radius: 5px;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+.myProfile {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    height: 100vh;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* padding-left: 18%; */
+}
+.myProfileContents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.myProfileInsideContainer {
+    display: flex;
+    /* border: 2px solid; */
+    /* width: 5; */
+    /* width: 34%; */
+    border-radius: 253px;
+    padding: 4% 0%;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.myProfileRightSide, .myProfileLeftSide{
+    padding-left: 357px;
+}
+.myProfileRightSIde{
+    padding-left: 357px;
+
+}

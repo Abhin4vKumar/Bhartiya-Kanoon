@@ -1,0 +1,212 @@
+/* .certCard{
+    display: flex;
+    cursor: pointer;
+    width: 70%;
+    
+    border-radius: 12px;
+    transition: all ease-in-out 0.2s;
+}
+
+
+.certCard:hover{
+    background-color: #F4F6FA;
+
+} */
+
+
+.certCard {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 1% auto;
+    /* display: flex; */
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid ;
+    width: 70%;
+
+    border-radius: 12px;
+    transition: all ease-in-out 0.2s;
+    font-weight: bold;
+
+
+}
+
+.certCard:hover {
+    background-color: white;
+}
+.certCard:active {
+    background-color: rgb(235, 235, 235);
+}
+
+
+.certCardDiv {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 4% auto;
+    width: 100%;
+    font-size: 0.9em;
+}
+.certiLeft img {
+    width: 68px;
+}
+.sno, .certiLeft, .certiNameSide, .menuBtn{
+    /* padding: 0.1% 4%; */
+
+    font-weight: bold;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+}
+.menuBtn i{
+    background-color: #E9EDF8;
+    border-radius: 5px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuBtn{
+    cursor: pointer;
+}
+
+
+.certiMenu {
+    
+    width: 17%;
+    position: absolute;
+    z-index: -2;
+    cursor: pointer;
+    
+    padding-top: 0.5%;
+}
+.certiMenu ul {
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    background-color: white;
+    font-size: 0.9em;
+    right: 13%;
+    color: black;
+    border-radius: 7px;
+    padding-left: 3%;
+    width: 53%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -2;
+}
+
+.certiMenu ul a li{
+    padding: 4% 0%;
+}
+
+
+.certiList {
+    width: 98%;
+    /* top: -107px; */
+    /* margin: -94px; */
+    position: relative;
+    height: 100vh;
+    /* overflow-y: auto; */
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    height: 87vh;
+    flex-direction: column;
+}
+.inputAdd{
+    display: flex;
+    flex-direction: column;
+}
+
+.popUpWindowDash {
+    background-color: #343434;
+    position: fixed;
+    top: 45vh;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 19px;
+    align-items: center;
+}
+
+
+
+
+.popBack {
+    background-color: #232323;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.popBack, .popUpWindowDash{
+    display: none;
+}
+
+.dashBoardRow{
+    opacity: 0;
+    padding-top: 10%;
+    /* transform: translateY(30px); */
+    height: 15vh;
+    border-bottom: 1px solid white;
+}
+.dashBoardRow:hover{
+    background-color: #232323;
+}
+
+.userDashTable {
+    width: 86%;
+    margin: 0% auto;
+}
+
+.inpWindowPopUpDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.inpWindowPopUpDiv input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+  }
+
+  .inpWindowPopUpDiv label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .inpWindowPopUpDiv input:focus ~ label, .inpWindowPopUpDiv input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #bdb8b8;
+  font-size: 12px;
+}

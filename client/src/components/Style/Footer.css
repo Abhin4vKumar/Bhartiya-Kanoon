@@ -1,0 +1,101 @@
+.upperSectionRightFooter{
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1 1 auto;
+}
+.upperSectionRightFooter ul {
+    display: flex;
+    flex: 1 1 auto;
+}
+.upperSectionRightSearchFooter{
+    flex: 1 1 auto;
+}
+.upperSectionRightFooter ul a {
+    text-decoration: none;
+    color: white;
+    padding-right: 7%;
+}
+.upperSectionRightFooter ul a li{
+    list-style: none;
+}
+.lowerSectionRightFooter ul{
+    display: flex;
+    flex: 1 1 auto;
+}
+.lowerSectionRightFooter ul a {
+    text-decoration: none;
+    color: white;
+    padding-right: 7%;
+}
+.lowerSectionRightFooter ul a li{
+    list-style: none;
+}
+.footerLeft {
+    display: flex;
+    height: 100%;
+}
+
+.logoCertCard {
+    padding: 0% 7%;
+    align-items: center;
+    width: 26%;
+    display: flex;
+    color: white;
+}
+.logoCertCard img{
+    height: 106px;
+    width: auto;
+}
+.rightSectionFooter {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.upperSectionRightFooter {
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1 1 auto;
+    padding: 6% 0%;
+}
+
+
+.footer {
+    background-color: #22242A;
+    height: 24vh;
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+}
+
+.lowerSectionRightFooter {
+    display: flex;
+    padding-top: 6%;
+}
+.lowerSectionRightFooter div{
+    flex: 1 1 auto;
+}
+
+.footerBoxIcons{
+    /* margin: 2px; */
+}
+.lowerSectionRightFooterIcons{
+    display: flex
+
+}
+.footerSearch{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 4%;
+    font-size: 0.5em;
+    border-radius: 25px ;
+    border-top-right-radius: 0;
+    cursor: pointer;
+}
+.footerSearchInp {
+    padding: 3%;
+    border-radius: 30px;
+    background: white;
+}

@@ -1,0 +1,110 @@
+.contactDivRight {
+    display: flex;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-bottom: 8%;
+    flex-direction: column;
+}
+
+.contactCard {
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    padding: -6%;
+    margin-bottom: 6%;
+}
+
+
+.contactCardRight {
+    width: 22%;
+    position: absolute;
+    left: 51%;
+}
+
+#contactBg {
+    width: 53%;
+    border-radius: 25px;
+}
+
+/* .circl */
+.inpText {
+    border: 2px solid #d8d8d8;
+    height: 3.7vh;
+
+}
+
+
+
+.submitRightContact {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: rgb(0, 168, 198);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    left: 41%;
+    bottom: 24px;
+}
+
+.submitRightContact:hover,
+.submitRightContact:focus {
+    background-color: rgb(0, 133, 157);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.submitRightContact:hover {
+    transform: translateY(-1px);
+}
+
+.submitContact {
+    /* margin-left: 9%; */
+    /* margin-top: -15px; */
+    margin: auto;
+    display: flex;
+}
+.upperContactPart {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.upperContactPart {
+    text-align: center;
+    font-size: 1em;
+    /* display: flex; */
+    margin: 1%;
+    /* f: 50%; */
+    margin: auto;
+    width: 49%;
+}
+
+.upperContactPart p {
+    padding: 5%;
+}
+
+.upperContactPart h1 {
+    padding-top: 5%;
+}

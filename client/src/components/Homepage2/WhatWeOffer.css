@@ -1,0 +1,42 @@
+.whatWeOfferHome{
+    height: 110vh;
+    width: 100%;
+    background: -webkit-linear-gradient( rgb(179, 204, 245),white);
+}
+
+.wwofferHomeHead{
+    text-align: center;
+    -webkit-background-clip: text;
+    opacity: 0.9;
+    padding: 1%;
+}
+
+.allOffersHomeImgs {
+    row-gap: 76px;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    width: 74%;
+    margin: -6%to;
+    margin: auto;
+}
+
+.imgOfferHomeDiv{
+    transform: scale(0.8);
+    width: 20%;
+}
+
+.imgOfferHomeDiv img{
+    border-radius: 40px;
+}
+
+.offerDivLabelHome{
+    text-align: center;
+}
+
+.offerDivLabelHome label{
+    font-size:1.1em ;
+}

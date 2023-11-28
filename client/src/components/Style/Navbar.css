@@ -1,0 +1,114 @@
+.navLi{
+    list-style: none;
+    /* padding: 2%; */
+    
+
+}
+.navA{
+    padding: 2% 5%;
+    text-decoration: none;
+    color: white;
+
+}
+.navUl{
+    display: flex;
+    background-color: #222;
+}
+.navBar{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 0;
+}
+
+/* .gapNavA{
+    width: 50%;
+} */
+
+.leftNavSide {
+    flex: 8 1 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.leftNavSide {
+    flex: 8 1 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.accountListUl li{
+    /* color: white; */
+    list-style: none;
+    padding: 5%;
+    text-align: center;
+    /* text-align: left; */
+}
+
+.accountListUl {
+    background-color: white;
+    height: 75px;
+    padding: 1%;
+    width: 110px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.accountList{
+    position: absolute;
+    top: 4%;
+    padding: 2%;
+    right: 4%;
+    opacity: 0;
+    transform: translateY(-14px);
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+}
+.accountListA{
+    text-decoration: none;
+    color: #232323;
+    font-weight: 600;
+}
+.rightNavSide {
+    margin-right: 9%;
+    margin-top: 2%;
+    margin-left: 16%;
+}
+.connectWallBtn{
+    cursor: pointer;
+    transition:all ease-out 0.1s;
+}
+.connectWallBtn:hover{
+    background-color: white;
+    color: #232323 !important;
+    font-weight: bold;
+}
+
+.liHrNav{
+    width: 0%;
+    opacity: 0;
+    transition: all ease-out 0.2s;
+    /* transform-origin: 100%; */
+}
+
+.connectedStatusDiv{
+    display: flex;
+    align-items: center;
+}
+
+.connectedStatusColor{
+    height: 15px;
+    width: 15px;
+    background-color: #00d700;
+    border-radius: 100%;
+    /* margin-left: 3%; */
+    position: relative;
+    left: 10px;
+    
+}
+
+.connectedStatusDiv p{
+    font-size: 0.7em;
+}

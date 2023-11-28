@@ -1,0 +1,86 @@
+.dashBoardA{
+    text-decoration: none;
+    padding: 8% 7%;
+    color: white;
+    /* font-weight: bold; */
+}
+.dashBoardLi{
+    list-style: none;
+}
+.dashBoardUl{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.leftSideDash {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    margin-top: 29%;
+}
+.rightSideDash{
+    display: flex;
+    flex:0.3 1 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashBoardNav{
+    background-color: #66347F
+    
+}
+
+.dashBoardNavDiv {
+    top: 76px;
+    width: 12%;
+    position: sticky;
+    /* left: 0; */
+    /* height: 0vh; */
+}
+
+.leftPreviewCert{
+    display: flex;
+    padding: 0% 2%;
+}
+.leftPreviewCertBtn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+}
+.dashBoardA:hover{
+    background-color: #2f2f2f;
+}
+
+.certiDiv{
+    background-color: #171717;
+    color: white;
+}
+
+.afterLoginSection{
+    display: flex;
+}
+.certiDiv{
+    width: 88%;
+    overflow-y: auto;
+}
+
+.completeCompanyAccSection{
+    width: 88%;
+    overflow-y: auto;
+}
+.sideBarButton button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 3%;
+    border-radius: 5px;
+
+}
+.sideBarButton{
+    padding: 7% 7% 0 0;
+    text-align: right;
+}
+.sideBarButton button:hover{
+    background-color: #a24fcb;
+}

@@ -1,0 +1,96 @@
+.heroSection2 {
+    height: 100vh;
+    width: 100%;
+    background: rgb(5, 4, 11);
+    background: linear-gradient(0deg, rgba(5, 4, 11, 1) 46%, rgba(41, 34, 88, 1) 100%);
+}
+
+.imageHeroSection {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+.imageHeroSection img {
+    width: 30%;
+    border-radius: 200px;
+}
+
+.heroSectionHeader {
+    text-align: center;
+}
+
+.heroSectionHeader p {
+    width: 30%;
+    opacity: 0.5;
+}
+
+.heroSectionHeader h1 {
+    width: 80%;
+    font-size: 3em;
+}
+
+
+.heroSectionHeader {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.buttonSectionsHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1%;
+}
+
+.getStartedHeroDivBtn,
+.aboutUsHeroDivBtn {
+    width: 50%;
+}
+
+.getStartedHeroDivBtn button,
+.aboutUsHeroDivBtn button {
+    width: 20%;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.getStartedHeroDivBtn {
+    text-align: right;
+}
+
+.getStartedHeroDivBtn button {
+
+    background-color: #7562FD;
+    color: white;
+}
+
+.aboutUsHeroDivBtn button {
+
+    background-color: #414050;
+    color: white;
+}
+
+.heroSecTrustSpan {
+    background: -webkit-linear-gradient( rgb(114, 93, 235), rgb(66, 53, 144));
+    opacity: 0.5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ourJourneyHome{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+.headingHomeJourney{
+    padding: 1%;
+    color: white;
+    text-align: center;
+}

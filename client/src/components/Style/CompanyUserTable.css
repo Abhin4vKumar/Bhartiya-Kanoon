@@ -1,0 +1,519 @@
+.companyUserTable {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 4% auto;
+    /* display: flex; */
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid ;
+    width: 70%;
+
+    border-radius: 12px;
+    transition: all ease-in-out 0.2s;
+    font-weight: bold;
+
+
+}
+
+.companyUserTable:hover {
+    background-color: white;
+}
+.companyUserTable:active {
+    background-color: rgb(235, 235, 235);
+}
+
+
+.companyUserTable div {
+    margin-left: 3%;
+    padding: 2%;
+}
+
+.clickToCopyAccNo {
+    position: absolute;
+    margin-left: 0 !important;
+    font-size: 0.7em;
+    padding-left: auto !important;
+    background-color: #232323;
+    color: white;
+    height: 0;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    opacity: 0;
+    /* transform: scaleY(0.5);   */
+    transition: all ease-out 0.2s;
+    margin-top: 2%;
+    transform-origin: 0  0%;
+}
+
+.button-4 {
+    appearance: none;
+    background-color: #9E4784;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+  
+  .button-4:hover {
+    background-color: #ffc0e8;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.1s;
+}
+  
+  .button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  .button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .button-4:focus {
+    outline: 1px transparent;
+  }
+  
+  .button-4:before {
+    display: none;
+  }
+  
+  .button-4:-webkit-details-marker {
+    display: none;
+  }
+
+
+
+
+  .companyBtn {
+    width: 200px;
+    height: 200px;
+    font-size: 1.3em;
+    border-radius: 12px;
+    border: none;
+    background-color:#9E4784;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+  }
+  
+
+  .companyButtonsSide {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+}
+  
+
+  .IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+    color: white;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  .companyBtn:hover .IconContainer {
+    transform: translateX(50px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .companyBtn:hover .text {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  .companyBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
+
+  
+.accountNoCompanyAcc {
+    display: flex;
+    flex-direction: column;
+    
+}
+.companyAccountListCloseBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #232323;
+}
+.accountListSearchCompanyDiv {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    width: 44%;
+}
+
+
+
+.topNavCompanyItems {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #111;
+  
+  margin: auto;
+  gap: 22px;
+  height: 107vh;
+  
+  padding: 4%;
+}
+
+
+.topNavCompanyItems div{
+  /* margin: 10%; */
+}
+.accAddUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: auto; */
+}
+.companyBackArea {
+  bottom: 0;
+  background-color: black;
+  position: fixed;
+  
+  z-index: 4;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  
+  opacity: 0.8;
+}
+
+
+.addUserPopupWindow {
+  position: fixed;
+  left: 35%;
+  background-color: #66347F;
+  height: 63vh;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  display: none;
+  top: 23vh;
+  flex-direction: column;
+  z-index: 5;
+  justify-content: center;
+}
+
+.choose{
+  color: white;
+}
+
+.inpAfterCompanyPopUp{
+    border: 1px solid;
+}
+.btnAddUserPopupDiv button{
+    cursor: pointer;
+}
+
+.viewCertUser{
+    /* margin-left: 5%; */
+}
+.accountListSearchBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+.companyAccSearchList{
+    background-color: white;
+}
+
+
+
+
+/* CSS */
+.button-67 {
+    z-index: 0;
+    align-items: center;
+    background: #f5f5fa;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+    box-sizing: border-box;
+    color: #2a1f62;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+  }
+  
+  .button-67:hover {
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+  }
+  
+  @media (min-width: 768px) {
+    .button-67 {
+      padding: 24px;
+    }
+  }
+
+  .inpAfterPopup{
+    border: 1px solid;
+  }
+
+  .inpFile {
+    margin-top: 1rem;
+    cursor:"pointer";
+    /* border-radius: 12px; */
+    /* border-radius: 20px; */
+  }
+  
+  .inpFile::file-selector-button {
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+  /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+    font-weight: bold;
+    color: #222;
+    cursor: pointer;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+}
+.inpFile::file-selector-button:hover{
+  background-color: rgb(240, 252, 255);
+}
+
+.selectOptionsDiv {
+  text-align: center;
+  /* width: 219%; */
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.selectOptionsDiv h1{
+  color: #fff;
+}
+
+.textArea{
+  color: white;
+}
+
+
+
+.form__label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+  color: white;
+}
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 2px solid #222;
+  /* border-bottom: 0.3rem solid transparent; */
+  transition: all 0.3s;
+}
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-1rem);
+  transform: translateY(-2rem);
+}
+
+.form__label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+.uploadFileDiv{
+  display: flex;
+  flex-direction: column;
+}
+.uploadFileDiv button {
+  padding: 2% 0%;
+  width: 33%;
+  margin: 4% auto;
+  /* margin: 2%; */
+}
+
+.submLoadingDisplay{
+  position: fixed;
+  width: 85%;
+  text-align: center;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.submLoadingDisplay img{
+  border-radius:50px ;
+  width: 200px;
+  height: 200px;
+
+}
+
+.bgSubmitLoading{
+  background-color: #111;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9;
+  /* opacity: 0; */
+}
+
+.uploadToPinata{
+  color: white;
+  z-index: 3;
+}
+
+.uploadToPinata{
+  font-weight: bold;
+  padding: 2%;
+  font-size: 1.5em;
+}
+
+.submitIPFSlabel{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.uploadLoadingBar{
+  
+  top: 57vh;
+  
+  width: 69%;
+  left: 14%;
+  height: 2vh !important;
+  border-radius: 20px;
+  z-index: 11 !important;
+  
+}
+
+.uploadDocDiv{
+  position: relative;
+  border: 2px dashed white ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b44af;
+  padding: 2%;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.uploadDocDiv input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+.dragAndDropfiles img{
+  width: 50%;
+}
+
+.uploadDocDiv:hover, .uploadDocDiv.dragover{
+  opacity: 0.6
+}
+
+.dragAndDropfiles{
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.featured .box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  cursor: pointer;
+  flex-basis: 31%;
+  background:#fff3f3;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 1.2em;
+  margin: 2%;
+  margin-bottom: 2%;
+  padding: 40px 10px;
+  box-sizing: border-box;
+  transition:all ease-out 0.5s;
+
+}
+
+.featureCont{
+  margin: auto;
+}
+.featureBox:hover{
+  box-shadow: 0 0 20px rgb(246, 246, 246);
+}
+.featureBox{
+  opacity: 0;
+  transform: translateY(60px);
+}
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
+
+.yourDocWithUs{
+  text-align: center;
+  padding: 3%;
+}
+.docWithUs{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+}
